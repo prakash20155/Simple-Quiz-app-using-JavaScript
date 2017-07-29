@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+}
+.grid{
+    width:600px;
+    height:530px;
+    margin:0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border-radius:50px;
+    border:2px solid grey;
+}
+
+/*.grid h1{*/
+    /*background-color: white;*/
+    /*font-size: 60px;*/
+    /*text-align:center;*/
+    /*color:#fff;*/
+/*}*/
+
+.grid #question{
+    font-size: 60px;
+
+}
+.buttons{
+    margin-top:30px;
+}
+#btn0, #btn1, #btn2, #btn3{
+    /*background-color: lightgrey;*/
+    width:250px;
+    font-size:20px;
+    border-radius:50px;
+    border:1px solid grey;
+    margin: 10px 40px 10px 0px;
+    padding:10px 10px;
+}
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+    cursor:pointer;
+    background-color: blue;
+}
